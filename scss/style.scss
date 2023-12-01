@@ -17,20 +17,6 @@ body {
     text-align: center;
 }
 
-/* Encabezado */
-/*
-header {
-    background-color: #0077b6;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-
-
-    h1 {
-        font-size: 36px;
-    }
-}
-*/
 
 /* Navegación */
 nav {
@@ -46,13 +32,13 @@ nav {
         display: flex;
         flex-direction: row;
         align-items: center;
-        }
+    }
 
     li {
         margin: 0 5px;
     }
 
-    .nav-item{
+    .nav-item {
         font-size: 10px;
 
     }
@@ -70,90 +56,131 @@ nav {
     }
 }
 
-/* Secciones */
-section {
-    padding: 40px 0;
+
+.dropdown-menu {
+
+
+    li {
+        margin: 0%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    img {
+        width: 10%;
+        height: 10%;
+        margin: 5%;
+    }
+
+    a.dropdown-item {
+        padding: 2% 1%;
+        font-weight: 300;
+        text-align: justify;
+        margin: 0%;
+        padding: 0% 3%;
+    }
+
+    div.dropdown-divider {
+        margin: 0px;
+    }
 }
+
+
+
+
+
+
+
+
+/* Secciones */
+section#presentacion {
+
+    h2 {
+        color: #0077b6;
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    .presentacionba {
+        padding: 2%;
+    }
+}
+
+
 
 /* Sección de servicios */
-.service {
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+#servicios {
+    background-color: #e1e0e0;
+    border-top: #dcdbdb 2px solid;
+
+    .service {
+        background-color: #fff;
+        padding: 10px;
+        margin: 10px 5px;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+
+
+        img{
+            width: 10%;
+            height: 10%;
+        }
+
+        h3 {
+            color: #0077b6;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+
+    }
 }
 
-.service h3 {
-    color: #0077b6;
-    font-size: 24px;
-}
 
 
 
 
-
-/* Sección de contacto */
-section#contacto {
-    background-color: #0077b6;
-    color: #fff;
-}
-
-section#contacto form {
-    margin-top: 20px;
-}
-
-section#contacto label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-section#contacto input[type="text"],
-section#contacto input[type="email"],
-section#contacto textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 5px;
-}
-
-section#contacto button[type="submit"] {
-    background-color: #005faa;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-section#contacto button[type="submit"]:hover {
-    background-color: #0077b6;
-}
 
 /* Pie de página */
 footer {
+    width: 100%;
     background-color: #005faa;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+
 }
+
+
+
+
+
 
 /* Estilos para dispositivos móviles y tablets */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 28px;
+
+
+/*
+    @media (max-width: 768px) {
+        header h1 {
+            font-size: 28px;
+        }
+
+
+
+
+
+        section {
+            padding: 20px 0;
+        }
+
+        section#contacto form {
+            margin-top: 10px;
+        }
     }
-
-
-
-
-
-    section {
-        padding: 20px 0;
-    }
-
-    section#contacto form {
-        margin-top: 10px;
-    }
-}
+    */
