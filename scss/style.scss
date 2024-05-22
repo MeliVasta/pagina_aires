@@ -665,7 +665,7 @@ footer {
 
     main {
         .presentacion-main {
-            top: 14%;
+            top: 35%;
             left: 4%;
         }
     }
@@ -673,15 +673,15 @@ footer {
     /* Mensaje pop-up Whatsapp */
 
     .popup {
-        top: 32%;
-        right: 14%;
+        top: 72%;
+        right: 13%;
         width: 30%;
     }
 
     /* Boton Whatsapp */
 
     .botonWp {
-        top: 33%;
+        top: 73%;
     }
 
     /* Seccion electrodomesticos */
@@ -774,7 +774,7 @@ footer {
         }
 
         .presentacion-main {
-            top: 15%;
+            top: 35%;
             left: 3%;
 
             h1 {
@@ -805,7 +805,7 @@ footer {
     /* Mensaje pop-up Whatsapp */
 
     .popup {
-        top: 34%;
+        top: 80%;
         right: 14%;
         width: 30%;
     }
@@ -816,7 +816,7 @@ footer {
 
     /* Boton Whatsapp */
     .botonWp {
-        top: 34.5%;
+        top: 80%;
         right: 4%;
     }
 
@@ -874,7 +874,7 @@ footer {
 
     main {
         .presentacion-main {
-            top: 15%;
+            top: 35%;
             left: 4%;
 
             h1 {
@@ -895,7 +895,7 @@ footer {
     /* Mensaje pop-up Whatsapp */
 
     .popup {
-        top: 33.5%;
+        top: 77%;
         right: 15.5%;
         width: 35%;
     }
@@ -911,7 +911,7 @@ footer {
     /* Boton Whatsapp*/
 
     .botonWp {
-        top: 34%;
+        top: 78%;
         right: 5%;
 
         button {
@@ -976,7 +976,7 @@ footer {
 
     main {
         .presentacion-main {
-            top: 12%;
+            top: 26%;
             left: 4%;
 
             h1 {
@@ -1004,7 +1004,7 @@ footer {
     /* Mensaje pop-up Whatsapp */
 
     .popup {
-        top: 29%;
+        top: 58%;
         right: 14%;
         width: 35%;
     }
@@ -1030,7 +1030,7 @@ footer {
     /* Boton Whatsapp*/
 
     .botonWp {
-        top: 30%;
+        top: 60%;
         right: 5%;
 
         button {
@@ -1063,6 +1063,7 @@ footer {
 
 
     /* Seccion marcas */
+
     .seccion-marcas .container-seccion-marcas .subtitulos-secciones {
         font-size: 200%;
     }
@@ -1140,11 +1141,11 @@ footer {
 
     main {
         img {
-            margin-top: 15%;
+            margin-top: 10%;
         }
 
         .presentacion-main {
-            top: 12%;
+            top: 22%;
             left: 4%;
 
             h1 {
@@ -1168,4 +1169,25 @@ footer {
             }
         }
     }
+    
+    /* Mensaje pop-up Whatsapp */
+
+    .popup {
+        top: 55%;
+        right: 16%;
+    }
+
+    .popup-content {
+        padding: 5px;
+
+        p {
+            font-size: 10px;
+        }
+    }
+
+        /* Boton Whatsapp*/
+
+        .botonWp {
+            top: 55%;
+        }
 }
