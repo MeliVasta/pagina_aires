@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicio Técnico heladeras y lavarropas</title>
-    <link rel="shortcut icon" href="" type="image/png">
-    <!--poner imagen logo-->
+    <title>Servicio Técnico BA</title>
+    <link rel="shortcut icon" href="./img/logoBA.gif.png" type="image/png">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -14,168 +13,286 @@
 </head>
 
 <body>
-    <!--barra de navegacion-->
+    <!-- Barra de navegacion -->
+
     <header>
-        <nav class="navbar justify-content-center">
-            <ul>
-                <a class="nav-item" href="#">Service BA</a>
-                <li class="nav-item ">
-                    <a class="nav-link active text-light" aria-current="page" href="#presentacion">Nosotros</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle  text-light" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Marcas
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <img src="./img/bosch.jpg" href="logo marca bosch" type="image/jpg">
-                            <a class="dropdown-item" href="#">Bosch</a>
+        <nav class="navbar fixed-top nav--lg-fixed navbar-expand-lg">
+            <a href="#">
+                <img src="./img/logoBA.gif.png" alt="Logo">
+            </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="offcanvas offcanvas-end navbar-dark bg-dark" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <img src="./img/logoBA.gif.png" alt="logo service BA">
+                    <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Sevice BA</h3>
+                    <button type="button" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                            class="bi bi-x-lg"></i></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav flex-grow-1 pe-3">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#presentacion">Nosotros</a>
                         </li>
-                        <div class="dropdown-divider"></div>
 
-                        <li>
-                            <img src="./img/electrolux.jpg" href="logo marca electrolux" type="image/jpg">
-                            <a class="dropdown-item" href="#">Electrolux</a>
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#marcas">Marcas</a>
                         </li>
-                        <div class="dropdown-divider"></div>
 
-                        <li>
-                            <img src="./img/gafa.jpg" href="logo marca gafa" type="image/jpg">
-                            <a class="dropdown-item" href="#">Gafa</a>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#servicios">Servicios</a>
                         </li>
-                        <div class="dropdown-divider"></div>
 
-
-                        <li>
-                            <img src="./img/ge-ele.jpg" href="logo marca general electrics" type="image/jpg">
-                            <a class="dropdown-item" href="#">General Electric</a>
-                        </li>
-                        <div class="dropdown-divider"></div>
-
-
-                        <li>
-                            <img src="./img/philco.jpg" href="logo marca philco" type="image/jpg">
-                            <a class="dropdown-item" href="#">Philco</a>
-                        </li>
-                        <div class="dropdown-divider"></div>
-
-                        <li>
-                            <img src="./img/patrick.jpg" href="logo marca patrick" type="image/jpg">
-                            <a class="dropdown-item" href="#">Patrick</a>
-                        </li>
-                        <div class="dropdown-divider"></div>
-
-
-                        <li>
-                            <img src="./img/samsung.jpg" href="logo marca samsung" type="image/jpg">
-                            <a class="dropdown-item" href="#">Samsung</a>
-                        </li>
-                        <div class="dropdown-divider"></div>
-
-
-                        <li>
-                            <img src="./img/whirlpool.jpg" href="logo marca Whirlpool" type="image/jpg">
-                            <a class="dropdown-item" href="#">Whirlpool</a>
-                        </li>
-                        <div class="dropdown-divider"></div>
-
-
-                        <li>
-                            <img src="./img/koh-i-noor.jpg" href="logo marca Koh-i-noor" type="image/jpg">
-                            <a class="dropdown-item" href="#">Koh-i-noor</a>
-                        </li>
-                        <div class="dropdown-divider"></div>
-
-
-                        <li>
-                            <img src="./img/siam.jpg" href="logo marca Siam" type="image/jpg">
-                            <a class="dropdown-item" href="#">Siam</a>
-                        </li>
-                        <div class="dropdown-divider"></div>
-
-                        <li>
-                            <img src="./img/lg.jpg" href="logo marca LG" type="image/jpg">
-                            <a class="dropdown-item" href="#">LG</a>
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#zonas">Zonas</a>
                         </li>
                     </ul>
-                </li>
 
-                <li class="nav-item ">
-                    <a class="nav-link active text-light" aria-current="page" href="#servicioTecnico">Servicio
-                        Técnico</a>
-                </li>
-
-                <li class="nav-item ">
-                    <a class="nav-link text-light" href="#">Zonas</a>
-                </li>
-            </ul>
+                </div>
+            </div>
         </nav>
-
     </header>
 
 
+    <!-- Imagen de fondo presentacion pagina -->
 
-    <!--imagen de fondo presentacion pagina-->
     <main>
-        <img src="./img/fondo_celu.png" class="img-fluid"
-            alt="imagen a modo ilustracion de presentacion a la pagina web sobre sericio tecnico">
+        <img src="./img/main.png" alt="">
+        <section class="presentacion-main">
+            <h1>SERVICE <br> OFICIAL BA</h1>
+            <p>Somos una empresa de servicio técnico de Heladeras y Lavarropas ubicado en Buenos Aires.</p>
+
+            <button>
+                <a href="https://wa.link/0ghek4" class="cta" target="_blank">
+                    <span>Contactanos</span>
+                    <svg width="13px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </a>
+
+            </button>
+        </section>
     </main>
 
 
-    <!-- presentacion servicios -->
+    <!-- Mensaje emergente de WhatsApp -->
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="cerrar-popup" id="cerrarPopup">&times;</span>
+            <p>¿Necesitas servicio a domicilio? ¡Comunícate con nosotros!</p>
+        </div>
+    </div>
+
+
+    <!-- Boton Whatsapp -->
+
+    <span class="botonWp">
+        <button>
+            <a href="https://wa.link/0ghek4" target="_blank">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+        </button>
+    </span>
 
 
 
+    <!-- Seccion electrodomesticos -->
 
-    <!--id="servicios"-->
-    <section id="presentacion">
-        <div class="container">
-            <div class="presentacionba">
-                <h2>Somos Service Oficial </h2>
-                <p>En un mundo donde la eficiencia y el
-                    funcionamiento sin problemas son fundamentales en la vida diaria, estamos aquí para garantizar que
-                    sus electrodomésticos operen a su máxima capacidad.</p>
-                <p>Contamos con amplia experiencia en
-                    reparación de heladeras y lavarropas. Nuestro equipo de Técnicos Matriculados especializados opera
-                    para la tranquilidad de nuestros clientes. <br> Contamos con la entrega de garantía escrita. Nos
-                    destacamos por brindar un servicio de calidad que va más allá de la simple reparación.</p>
+    <section class="seccion-electrodomesticos">
+        <div class="contenedor-electrodomesticos">
+            <div class="cards-electrodomesticos">
+                <img src="/img/heladera.png" alt="">
+                <p>Heladeras</p>
+            </div>
+            <div class="cards-electrodomesticos">
+                <img src="/img/lavarropa.png" alt="">
+                <p>Lavarropas</p>
+            </div>
+            <div class="cards-electrodomesticos aire" id="aire">
+                <img src="/img/aire-acondicionado.png" alt="">
+                <p>Aires Acondicionados</p>
+            </div>
+            <div class="cards-electrodomesticos">
+                <img src="/img/lavavajilla.png" alt="">
+                <p>Lavavajillas</p>
+            </div>
+            <div class="cards-electrodomesticos">
+                <img src="/img/cava.png" alt="">
+                <p>Cavas</p>
             </div>
         </div>
     </section>
 
-    <section id="servicios">
-        <div class="container">
-            <div id="servicioTecnico" class="service">
-                <img src="./img/toolbox.png" alt="icono toolbox">
-                <h3>Servicio Técnico</h3>
-                <p>Reparaciónes a domicilio, todas las marcas y repuestos originales.</p>
-            </div>
-            <div class="service">
-                <h3>Zonas de Atención</h3>
-                <p>Capital Federal, Zona Norte, Zona Sur y Zona Oeste, Buenos Aires.
-                </p>
-            </div>
-            <div class="service">
-                <h3>Instalación de Sistemas Nuevos</h3>
-                <p>Instalamos sistemas de refrigeración eficientes y de alta calidad.</p>
+    <!-- Boton ir arriba-->
+    <span id="flechaArriba" class="ir-arriba">
+        <button>
+            <i class="bi bi-arrow-up-circle-fill"></i>
+        </button>
+    </span>
+
+
+    <!-- Presentacion servicios -->
+
+    <section id="presentacion" class="seccion-nosotros">
+        <div class="presentacionba">
+            <h2 class="subtitulos-secciones">SOMOS SERVICE OFICIAL</h2>
+            <p>En un mundo donde la eficiencia y el
+                funcionamiento sin problemas son fundamentales en la vida diaria, estamos aquí para garantizar
+                que
+                sus electrodomésticos operen a su máxima capacidad.</p>
+            <p>Contamos con amplia experiencia en
+                reparación de heladeras y lavarropas. <br> Nuestro equipo de Técnicos Matriculados especializados
+                opera
+                para la tranquilidad de nuestros clientes. <br> Nos
+                destacamos por brindar un servicio de calidad que va más allá de la simple reparación.<br>
+                <br><strong> Realizamos garantías escritas. </strong><br></p>
+        </div>
+    </section>
+
+
+    <!-- Barra divisora secciones-->
+
+    <div class="barra">
+        <span class="barra-divisora"></span>
+    </div>
+
+
+    <!-- Seccion marcas -->
+
+    <section id="marcas" class="seccion-marcas">
+        <div class="container-seccion-marcas">
+            <h2 class="subtitulos-secciones">TRABAJAMOS TODAS LAS MARCAS OFICIALES</h2>
+            <div class="marcas">
+                <img src="/img/gafa.png" alt="">
+                <img src="/img/philco.png" alt="">
+                <img src="/img/siam.png" alt="">
+                <img src="/img/koh-i-noor.png" alt="">
+                <img src="/img/patrick.png" alt="">
+                <img src="/img/whirpool.png" alt="">
+                <img src="/img/electrolux.png" alt="">
+                <img src="/img/lg.png" alt="">
+                <img src="/img/samsung.png" alt="">
             </div>
         </div>
     </section>
 
 
-    <!--
-    <section id="contacto">
-        <div class="container">
-        </div>
+    <!-- barra divisora secciones-->
+
+    <div class="barra">
+        <span class="barra-divisora"></span>
+    </div>
+
+
+    <!-- seccion servicios -->
+    <section id="servicios" class="seccion-servicios">
+        <div class="container-servicios">
+            <h2 class="subtitulos-secciones">SERVICIO TÉCNICO</h2>
+            <div class="especificacion-servicios">
+
+                <div class="servicios-reparaciones">
+                    <h3 class="sub-titulos-servicios uno">REPARACIONES Y CAMBIOS</h3>
+                    <div class="servicios-reparaciones-dos">
+                        <p><i class="bi bi-wrench-adjustable-circle"></i>Reparación y cambio de placas.</p>
+                        <p><i class="bi bi-wrench-adjustable-circle"></i>Cargas de gas.</p>
+                        <p><i class="bi bi-wrench-adjustable-circle"></i>Cambio de motores y reparación.</p>
+                        <p><i class="bi bi-wrench-adjustable-circle"></i>Cambio de resistencia y forzadores.</p>
+                        <p><i class="bi bi-wrench-adjustable-circle"></i>Cambio de sensores.</p>
+                    </div>
+                </div>
+
+
+                <div class="servicios-reparaciones">
+                    <h3 class="sub-titulos-servicios">BRINDAMOS SERVICIOS</h3>
+                    <div class="servicios-reparaciones-dos">
+                        <p><i class="bi bi-wrench-adjustable-circle"></i>Problemas con el sistema de descongelación.
+                        </p>
+                        <p><i class="bi bi-wrench-adjustable-circle"></i>Reparación de motores.</p>
+                        <p><i class="bi bi-wrench-adjustable-circle"></i>Recambio o limpieza del flotador e
+                            interruptores.</p>
+                        <p><i class="bi bi-wrench-adjustable-circle"></i>Cargas de gas, chequeo de fugas y
+                            circuitos.
+                        </p>
+                        <p><i class="bi bi-wrench-adjustable-circle"></i>Reparación de plaquetas electrónicas.</p>
+                    </div>
+                </div>
+            </div>
     </section>
-    -->
+
+
+    <!-- Barra divisora secciones-->
+
+    <div class="barra">
+        <span class="barra-divisora"></span>
+    </div>
+
+
+    <!-- Seccion de zonas -->
+    <section id="zonas" class="seccion-zonas">
+        <h2 class="subtitulos-secciones">ZONAS DE ATENCION</h2>
+        <div class="container-zonas">
+            <div class="zonas-cajas">
+                <h4 class="titlo-zonas">C.A.B.A.</h4>
+                <span class="subtitulo-zonas">Ciudad Autónoma de Buenos Aires</span>
+                <div class="cuerpo-zonas">
+                    <p>
+                        Agronomía - Almagro - Balvanera - Barracas - Barrio Norte - Belgrano - Boedo - Caballito -
+                        Centro - Chacarita - Coghlan - Colegiales - Congreso - Constitución - Flores - Floresta - La
+                        Boca - Liniers - Mataderos - Nuñez - Once - Palermo - Parque Centenario - Parque Chacabuco -
+                        Parque Chas - Parque Patricios - Paternal - Pompeya - Puerto Madero - Recoleta - Retiro -
+                        Saavedra - San Cristóbal - San Telmo - Tribunales - Versailles - Villa Crespo - Villa Devoto
+                        - Villa Lugano - Villa Luro - Villa Ortuzar - Villa Pueyrredón - Villa Soldati - Villa
+                        Urquiza - Villa Del Parque
+                    </p>
+                </div>
+            </div>
+
+            <div class="zonas-cajas">
+                <h4 class="titlo-zonas">G.B.A.O.</h4>
+                <span class="subtitulo-zonas">Gran Buenos Aires Oeste</span>
+                <div class="cuerpo-zonas">
+                    <p>
+                        3 de Febrero - Aldo Bonzi - Castelar - Ciudad Evita - Ciudadela - El Palomar - Gonzalez
+                        Catan - Haedo - Hurlingham - Isidro Casanova - Ituzaingó - Jose Ingenieros - La Tablada -
+                        Laferrere - Lomas del Mirador - Malvinas Argentinas - Merlo - Monte Grande - Moreno - Morón
+                        - Parque Leloir - Paso del Rey - Rafael Castillo - Ramos Mejía - San Antonio de Padua - San
+                        Justo - Tapiales - Tristán Suarez - Villa Celina - Villa Insuperable - Villa Madero
+                    </p>
+                </div>
+            </div>
+
+            <div class="zonas-cajas">
+                <h4 class="titlo-zonas">G.B.A.N.</h4>
+                <span class="subtitulo-zonas">Gran Buenos Aires Norte</span>
+                <div class="cuerpo-zonas">
+                    <p>
+                        Acassuso - Beccar - Bella Vista - Benavidez - Boulogne - Carapachay - Caseros - Ciudad
+                        Jardín - Del Viso - Don Torcuato - El Talar - Florida - Garín - General Pacheco - Gran Bourg
+                        - Jose León Suarez - Ingeniero Maschwitz - La Lucila - Martínez - Munro - Olivos - Pilar -
+                        Saenz Peña - San Andrés - San Fernando - San Isidro - San Martin - San Miguel - Santos
+                        Lugares - Tigre - Tortuguitas - Vicente López - Victoria - Villa Adelina - Villa Ballester -
+                        Villa Bosch - Villa Martelli
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="izquierda" class="izquierda"><i class="bi bi-arrow-left-circle"></i></div>
+        <div id="derecha" class="derecha"><i class="bi bi-arrow-right-circle"></i></div>
+    </section>
+
 
 
     <footer>
         <div class="container ">
-            &copy; 2023 Servicios de Refrigeración. Todos los derechos reservados.
+            &copy; 2024 Service BA, Buenos Aires, Argentina. Reparaciones. Tel.: 11-3614-2778.
         </div>
     </footer>
 
@@ -186,6 +303,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
     </script>
+    <script src="./js/app.js"></script>
+
 
 </body>
 
