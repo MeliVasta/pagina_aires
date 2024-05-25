@@ -10,13 +10,15 @@ Este repositorio contiene un proyecto de página de Servicio Técnico, desarroll
 - Descomprimir el archivo y abrirlo desde el Visual Studio Code.
   
 - Abrir la terminal (ctrl + ñ).
+- En el lado derecho de la terminal hacer click en "v" Launch Profile, boton al lado de "+", seleccionar "Git Bash".
+- Ingresar los siguientes comandos en pestaña "Terminal":
+  - git clone https://github.com/MeliVasta/pagina_aires
+
 - En el lado derecho de la terminal hacer click en "v" Launch Profile, boton al lado de "+", seleccionar "Command Prompt".
 - Ingresar los siguientes comandos en pestaña "Terminal":
-  - cd app
-  - npm run dev
-  - aparecerá un link, ctrl + click y abrirá nuestra app en el navegador.
+  - npm run watch-css
 
 
 ## Vistas utilizadas:
 
-- Utilizando la herramienta Resposively App las siguientes vistas: MacBook Pro (1140x900), LaptopWith Touch (950x1280), iPad (768x1024) e iPhone 12 Pro (390x844).
+- Utilizando la herramienta Resposively App las siguientes vistas: MacBook Pro (1140x900), iPad Pro (1024x1366), LaptopWith Touch (950x1280), iPad (768x1024), Nexus 7 (600x960) e iPhone 12 Pro (390x844).
