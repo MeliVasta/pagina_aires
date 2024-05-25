@@ -19,6 +19,12 @@ Este repositorio contiene un proyecto de página de Servicio Técnico, desarroll
   - npm run watch-css
   - click derecho en index.html, "Open with Live Server"
 
+## Tecnologías Utilizadas
+
+- HTML
+- CSS / SCSS
+- Javascript
+- Node.js
 
 ## Vistas utilizadas:
 
