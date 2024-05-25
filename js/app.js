@@ -1,6 +1,6 @@
 
 
-// slider zonas
+// Función slider sección zonas
 let contenedorZonas = document.querySelector(".container-zonas");
 let siguiente = document.getElementById("derecha");
 let atras = document.getElementById("izquierda");
@@ -62,7 +62,7 @@ slider();
 
 
 
-// felcha hacia arriba
+// Función flecha que te lleva hacia arriba 
 
 document.addEventListener("DOMContentLoaded", function () {
     let flechaArriba = document.getElementById("flechaArriba");
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-// mensaje pop-up whatsapp
+// Función mensaje pop-up whatsapp 
 
 document.addEventListener("DOMContentLoaded", function () {
     let popup = document.getElementById("popup");
