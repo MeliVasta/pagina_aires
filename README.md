@@ -1,4 +1,4 @@
-# Primer modelo de página de Servicio Técnico refrig
+# Primer modelo de página de Servicio Técnico refrigeración
 
 
 Este repositorio contiene un proyecto de página de Servicio Técnico, desarrollado y diseñado como parte de un trabajo a pedido del cliente.
