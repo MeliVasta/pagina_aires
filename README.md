@@ -17,6 +17,7 @@ Este repositorio contiene un proyecto de página de Servicio Técnico, desarroll
 - En el lado derecho de la terminal hacer click en "v" Launch Profile, boton al lado de "+", seleccionar "Command Prompt".
 - Ingresar los siguientes comandos en pestaña "Terminal":
   - npm run watch-css
+  - click derecho en index.html, "Open with Live Server"
 
 
 ## Vistas utilizadas:
